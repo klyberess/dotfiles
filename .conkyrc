@@ -1,0 +1,27 @@
+background yes
+
+use_xft yes
+xftfont <?>
+xftalpha 1
+
+update_interval 3.0
+double_buffer yes
+total_run_times 0
+
+own_window yes
+own_window_transparent yes
+own_window_hints undecorated,above,sticky,skip_taskbar,skip_pager
+
+draw_shades no
+draw_borders no
+draw_outlines no
+
+alignment top_right
+maximum_width 392
+
+TEXT
+${image /home/username/personky/res/background.png -p 1628,880 -s 392x200}
+${image /home/username/personky/res/timeOfDay.png -p 130,85 -s x}
+${goto 3}${time %l%M %-d:%-m %a}
+## todo: print weather icon
+## todo: run weather.rb
