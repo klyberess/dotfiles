@@ -15,7 +15,8 @@ fi
 mpd
 compton -b
 
-## Programs ##
+## Programs & Scripts ##
+ruby weather.rb &
 
 ## Default WM/DE ##
 session=${1:-fvwm}
