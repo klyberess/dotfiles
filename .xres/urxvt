@@ -5,3 +5,10 @@ URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
 URxvt.internalBorder: 10
 URxvt.depth: 32
+
+URxvt.perl-lib:         /home/klyberess/.config/urxvt
+URxvt.perl-ext:         default,matcher
+
+URxvt.url-launcher:     firefox
+URxvt.colorUL:          #cf7275
+URxvt.matcher.button:   1
